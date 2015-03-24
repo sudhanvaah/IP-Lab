@@ -22,7 +22,7 @@ function validatesem()
  var dom=document.getElementById("sem");
  var str=dom.value;
  var pos=str.search(/^[1-8]$/);
- var po=str.search(/^\d\d$/);
+var po=str.search(/^[0][1-8]$/);
  if(pos==0 || po==0)
  {
 	alert("Sem is correct");
