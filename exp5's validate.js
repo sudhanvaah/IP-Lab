@@ -21,7 +21,7 @@ function validatesem()
 {
  var dom=document.getElementById("sem");
  var str=dom.value;
- var pos=str.search(/^[0-8]$/);
+ var pos=str.search(/^[1-8]$/);
  var po=str.search(/^\d\d$/);
  if(pos==0 || po==0)
  {
