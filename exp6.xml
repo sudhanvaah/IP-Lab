@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="cars.css"?>
+<!DOCTYPE cars[
+	<!ELEMENT cars (car+)>
+	<!ELEMENT car (make,model,year,color,engine,accessories)>
+	<!ELEMENT make (#PCDATA)>
+	<!ELEMENT model (#PCDATA)>
+	<!ELEMENT year (#PCDATA)>
+	<!ELEMENT color (#PCDATA)>
+	<!ELEMENT engine (no_of_cylinders,fuel_system)>
+	<!ELEMENT no_of_cylinders (#PCDATA)>
+	<!ELEMENT fuel_system (#PCDATA)>
+	<!ELEMENT accessories (#PCDATA)>
+	<!ATTLIST accessories radio CDATA #REQUIRED
+			      air_conditioning CDATA #REQUIRED
+			      power_windows CDATA #REQUIRED
+			      power_steering CDATA #REQUIRED
+			      power_brakes CDATA #REQUIRED>
+	<!ENTITY m "Maruti">
+	<!ENTITY h "Honda">
+	<!ENTITY t "Tata">
+	      ]>
+<cars>
+	<car>
+		<make> &m; </make>
+		<model> ciaz </model>
+		<year> 2015 </year>
+		<color> Black </color>
+		<engine>
+		 <no_of_cylinders> 8 </no_of_cylinders>
+		 <fuel_system> Carburetted </fuel_system>
+		</engine>
+		<accessories radio="yes" air_conditioning="yes" power_steering="yes" power_brakes="yes"> Accessories present </accessories>
+	</car>
+	<car>
+		<make> &h; </make>
+		<model> Civic </model>
+		<year> 2010 </year>
+		<color> White </color>
+		<engine>
+		 <no_of_cylinders> 4 </no_of_cylinders>
+		 <fuel_system> Injected </fuel_system>
+		</engine>
+		<accessories radio="yes" air_conditioning="yes" power_steering="yes" power_brakes="no"> Accessories present </accessories>
+	</car>
+	<car>
+		<make> &t; </make>
+		<model> Innova </model>
+		<year> 2005 </year>
+		<color> Maroon </color>
+		<engine>
+		 <no_of_cylinders> 16 </no_of_cylinders>
+		 <fuel_system> Carburetted </fuel_system>
+		</engine>
+		<accessories radio="yes" air_conditioning="no" power_steering="yes" power_brakes="no"> Accessories present </accessories>
+	</car>
+</cars>
+			
