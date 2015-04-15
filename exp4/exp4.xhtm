@@ -29,10 +29,3 @@
   </p>
 </body>
 </html>
-
-<!-- extcss.css -->
-
-p.extlvl { background-color : forestgreen ;
-           color : white;
-           font : bold 12pt Courier ;
-          }
