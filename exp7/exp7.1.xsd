@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Patient.xsd-->
+<xsd:schema
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="patientSchema"
+	xmlns="patientSchema"
+	elementFormDefault="qualified">
+<xsd:complexType name="patient">
+<xsd:sequence>
+<xsd:element name="pname" type="xsd:string"/>
+<xsd:element name="disease" type="xsd:string"/>
+<xsd:element name="age" type="xsd:decimal"/>
+<xsd:element name="ptype" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:schema>
