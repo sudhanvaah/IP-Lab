@@ -5,7 +5,7 @@ http://localhost
 http://localhost/first.php
 -->
 
-<?php session_start();
+<?php
 	if(file_exists("visitors.dat"))
 	{
 		$count=file_get_contents("visitors.dat");
