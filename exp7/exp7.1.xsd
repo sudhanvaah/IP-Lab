@@ -5,6 +5,7 @@
 	targetNamespace="patientSchema"
 	xmlns="patientSchema"
 	elementFormDefault="qualified">
+<xsd:element name="patient">
 <xsd:complexType name="patient">
 <xsd:sequence>
 <xsd:element name="pname" type="xsd:string"/>
@@ -13,4 +14,5 @@
 <xsd:element name="ptype" type="xsd:string"/>
 </xsd:sequence>
 </xsd:complexType>
+</xsd:element>
 </xsd:schema>
