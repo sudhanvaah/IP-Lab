@@ -9,7 +9,7 @@
 	$t2=$_POST["t2"];
 	$t3=$_POST["t3"];
 	$t4=$_POST["t4"];
-	$query="insert into patient(pname,pno,disease,doctor) values ($t1,$t2,$t3,$t4);";
+	$query="insert into patient(pname,pno,disease,doctor) values ('$t1','$t2','$t3','$t4');";
 	$result=mysql_query($query);
 	if(!$result)
 		exit("Error executing query".mysql_error());
