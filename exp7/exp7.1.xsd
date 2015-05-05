@@ -6,7 +6,7 @@
 	xmlns="patientSchema"
 	elementFormDefault="qualified">
 <xsd:element name="patient">
-<xsd:complexType name="patient">
+<xsd:complexType>
 <xsd:sequence>
 <xsd:element name="pname" type="xsd:string"/>
 <xsd:element name="disease" type="xsd:string"/>
