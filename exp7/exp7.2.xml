@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="7b.xsl"?>
+
+<employees>
+	<employee>
+		<ename>Albus</ename>
+		<edesig>Research</edesig>
+		<esalary>50000</esalary>
+	</employee>
+	<employee>
+		<ename>Severus</ename>
+		<edesig>Marketing</edesig>
+		<esalary>70000</esalary>
+	</employee>
+</employees>
